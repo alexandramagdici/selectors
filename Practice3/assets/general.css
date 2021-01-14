@@ -1,0 +1,13 @@
+span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  background-color: black;
+}
+span:last-child {
+  margin-right: 0;
+}
+div {
+  margin-bottom: 15px;
+}

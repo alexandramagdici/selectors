@@ -1,0 +1,21 @@
+.yellow {
+  background-color: #e5ff60;
+}
+
+.green {
+  background-color: #66c887;
+}
+
+/*general sibling combinator*/
+span.green ~ span {
+  background-color: #66c887;
+}
+
+/*child combinator*/
+div > span {
+  background-color: #ffdc7f;
+}
+
+#yellow {
+  background-color: #e5ff60;
+}

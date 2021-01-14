@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selectors&combinators</title>
+        <meta  name="author" content="Alexandra Magdici">
+        <meta name="description" content="Usage of selectors">
+        <meta name="viweport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/general.css">
+        <link rel="stylesheet" type="text/css" href="assets/selectors.css">
+    </head>
+    <body>
+        <div>
+            <div>
+                <span class="yellow"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <span class="green"></span>
+                <span id="yellow"></span>  <!--higher priority-->
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <span class="green"></span>
+                <span></span>
+                <span id="yellow"></span>
+                <span></span>
+            </div>
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="yellow"></span>
+            </div>
+        </div>
+    </body>
+</html>
